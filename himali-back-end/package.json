@@ -1,0 +1,30 @@
+{
+  "name": "himali-back-end",
+  "version": "1.0.0",
+  "description": "This is the backend of himali express store.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index-server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "mern",
+    "project",
+    "backend",
+    "api",
+    "api"
+  ],
+  "author": "Biwash Chapai",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "express-validator": "^7.0.1",
+    "mongoose": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
